@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../Styles/abstracts/_variables.scss","FormPage.module.scss","FormPage.module.css"],"names":[],"mappings":"AAAA,WAAA;AAWA,QAAA;AAyBA,WAAA;AAEA,aAAA;AAUA,YAAA;AAcA,UAAA;ACzDA;EACI,mBD+CS;EC9CT,oBD8CS;EC7CT,qBD6CS;EC5CT,oBDmCS;AEjCb;ADAI;EANJ;IAOQ,iBDgCK;IC/BL,kBD+BK;IC9BL,wBD+BK;EE5BX;AACF","file":"FormPage.module.css"}

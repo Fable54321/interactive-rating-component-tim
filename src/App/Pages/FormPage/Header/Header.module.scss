@@ -1,0 +1,36 @@
+@use "../../../../Styles/abstracts/variables" as *;
+
+
+.header {
+
+
+    &__decoration {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 100vw;
+        background-color: $clr-neutral-600;
+
+        @media(min-width: $min-width-desktop) {
+            width: 48px;
+            height: 48px;
+        }
+    } 
+
+
+   &__title {
+      margin-top: $sz-160;
+       color: $clr-neutral-100;
+       font-family: $ff-primary;
+       font-size: $fs-header-mobile;
+       font-weight: $fw-700;
+
+       @media(min-width: $min-width-desktop) {
+        margin-top: $sz-300;
+        font-size: $fs-header-desktop;
+       }
+   } 
+}

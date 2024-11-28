@@ -1,0 +1,66 @@
+/* colors */
+/*fonts*/
+/*Spacings*/
+/*---desktop*/
+/*---mobile*/
+/*Queries*/
+.form-submission__form {
+  margin-top: 1.5rem;
+}
+.form-submission__form__rating {
+  display: flex;
+  gap: 1.0625rem;
+}
+@media (min-width: 40em) {
+  .form-submission__form__rating {
+    gap: 1.315rem;
+  }
+}
+.form-submission__form__rating input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.form-submission__form__rating button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 100vw;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 40em) {
+  .form-submission__form__rating button {
+    width: 51px;
+    height: 51px;
+    font-size: 0.9375rem;
+  }
+}
+.form-submission__form__submit {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 100vw;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 1.87px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 40em) {
+  .form-submission__form__submit {
+    margin-top: 2rem;
+    font-size: 0.9375rem;
+  }
+}/*# sourceMappingURL=FormSubmission.module.css.map */

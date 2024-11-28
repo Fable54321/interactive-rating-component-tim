@@ -1,0 +1,17 @@
+@use '../../../Styles/abstracts/variables' as *;
+
+
+
+
+.form-page {
+    padding-top: $sz-240;
+    padding-left: $sz-240;
+    padding-right: $sz-240;
+    padding-bottom: $sz-320;
+
+    @media(min-width: $min-width-desktop) {
+        padding-top: $sz-320;    
+        padding-left: $sz-320;
+        padding-right: $sz-390;
+    }
+}

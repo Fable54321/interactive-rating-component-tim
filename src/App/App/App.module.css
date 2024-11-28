@@ -1,0 +1,16 @@
+/* colors */
+/*fonts*/
+/*Spacings*/
+/*---desktop*/
+/*---mobile*/
+/*Queries*/
+.App {
+  width: clamp(300px, 87.2vw, 400px);
+  background-color: hsl(214, 22%, 15%);
+  border-radius: 15px;
+}
+@media (min-width: 40em) {
+  .App {
+    width: clamp(400px, 28.6111111vw, 600px);
+  }
+}/*# sourceMappingURL=App.module.css.map */

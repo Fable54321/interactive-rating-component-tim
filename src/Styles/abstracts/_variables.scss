@@ -1,0 +1,65 @@
+/* colors */
+
+$clr-neutral-100: hsl(0, 0%, 100%);
+$clr-neutral-200: hsl(217, 12%, 63%);
+$clr-neutral-600: hsl(213, 19%, 18%);
+$clr-neutral-700: hsl(214, 22%, 15%);
+$clr-neutral-900: hsl(216, 12%, 8%);
+
+$clr-accent-orange: hsl(25, 97%, 53%);
+
+
+/*fonts*/
+
+$ff-primary: 'Overpass', sans-serif;
+$ff-secondary: 'Overpass', sans-serif;
+
+
+$fs-header-desktop: 1.75rem;
+$fs-header-mobile: 1.5rem;
+
+$fs-body-desktop: .9375rem;
+$fs-body-mobile: .875rem;
+
+$fs-input-desktop: 1rem;
+$fs-input-mobile: .875rem;
+
+$fs-submit-desktop: .9375rem;
+$fs-submit-mobile: .875rem;
+
+
+
+
+$fw-400: 400;
+$fw-700: 700;
+
+
+/*Spacings*/
+
+/*---desktop*/
+    $sz-150: .9375rem;
+    $sz-200: 1.25rem;
+    $sz-210: 1.315rem;
+    $sz-240: 1.5rem;
+    $sz-300: 1.875rem;
+    $sz-320: 2rem;
+    $sz-390: 2.4375rem;
+    $sz-450: 2.8125rem;
+    
+/*---mobile*/
+   
+    $sz-160: 1rem;
+    $sz-170: 1.0625rem;
+    $sz-220: 1.25rem;
+    $sz-240: 1.5rem;
+    $sz-340: 2.125rem;
+    $sz-370: 2.3125rem;
+
+    
+    
+
+
+
+/*Queries*/
+
+$min-width-desktop: 40em;

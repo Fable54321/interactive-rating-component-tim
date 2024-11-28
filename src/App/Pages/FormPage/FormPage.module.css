@@ -1,0 +1,19 @@
+/* colors */
+/*fonts*/
+/*Spacings*/
+/*---desktop*/
+/*---mobile*/
+/*Queries*/
+.form-page {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+@media (min-width: 40em) {
+  .form-page {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2.4375rem;
+  }
+}/*# sourceMappingURL=FormPage.module.css.map */

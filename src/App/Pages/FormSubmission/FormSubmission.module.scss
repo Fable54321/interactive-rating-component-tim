@@ -1,0 +1,71 @@
+@use "../../../Styles/abstracts/variables" as *;
+
+
+
+.form-submission {
+   
+    
+ &__form { 
+
+    margin-top: $sz-240;
+   
+
+       &__rating {
+
+        display: flex;
+        gap: $sz-170;
+
+        @media(min-width: $min-width-desktop) {
+            gap: $sz-210;
+        }
+
+            input {
+            appearance: none;
+        }
+
+        button{
+            width: 42px;
+            height: 42px;
+            border: none;
+            border-radius: 100vw;
+            background-color: $clr-neutral-600;
+            color: $clr-neutral-200;
+            font-family: $ff-primary;
+            font-size: $fs-body-mobile;
+            font-weight: $fw-700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @media(min-width: $min-width-desktop) {
+                width: 51px;
+                height: 51px;
+                font-size: $fs-body-desktop;
+            }
+            
+        }
+    }
+
+    &__submit {
+        margin-top: $sz-240;
+        width: 100%;
+        height: 45px;
+        border: none;
+        border-radius: 100vw;
+        background-color: $clr-accent-orange;
+        color: $clr-neutral-900;
+        font-family: $ff-primary;
+        font-size: $fs-submit-mobile;
+        font-weight: $fw-700;
+        letter-spacing: 1.87px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media(min-width: $min-width-desktop) {
+            margin-top: $sz-320;
+            font-size: $fs-submit-desktop;
+        }
+    }
+}
+}

@@ -1,0 +1,12 @@
+@use './abstracts/reset';
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as m;
+
+
+body {
+    background-color: $clr-neutral-900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

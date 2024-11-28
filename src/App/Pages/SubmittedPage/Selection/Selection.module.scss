@@ -1,0 +1,60 @@
+@use "../../../../Styles/abstracts/variables" as *;
+
+
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: $sz-340;
+
+    @media(min-width: $min-width-desktop) {
+        padding-top: $sz-450;
+    }
+
+
+    &__text-rating {
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 29px;
+        background-color: $clr-neutral-600;
+        color: $clr-accent-orange;
+        font-family: $ff-secondary;
+        font-size: $fs-body-mobile;
+        font-weight: $fw-400;
+        padding-inline: 12px;
+        padding-block: 5px;
+        border-radius: 100vw;
+
+        @media(min-width: $min-width-desktop) {
+            margin-top: $sz-320;
+            font-size: $fs-body-desktop;
+            padding-inline: $sz-200;
+        }
+    }
+
+   &__text-thanks {
+    margin-top: $sz-240;
+    color: $clr-neutral-100;
+    font-family: $ff-primary;
+    font-size: $fs-header-mobile;
+    font-weight: $fw-700;
+
+    @media(min-width: $min-width-desktop) {
+        margin-top: $sz-320;
+        font-size: $fs-header-desktop;
+
+    }
+   } 
+
+   &__text-description {
+    margin-top: $sz-170;
+    color: $clr-neutral-200;
+    padding-inline: $sz-240;
+    font-family: $ff-secondary;
+    text-align: center;
+    line-height: 22px;
+    padding-bottom: $sz-370;
+   }
+
+}
