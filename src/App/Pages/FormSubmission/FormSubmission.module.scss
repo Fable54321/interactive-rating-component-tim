@@ -7,12 +7,23 @@
     
  &__form { 
 
+
+    
+
+    .btn-selected {
+      background-color: $clr-neutral-100;
+      color: $clr-neutral-600;
+    }
+
     margin-top: $sz-240;
    
 
        &__rating {
 
+        width: 100%;
+
         display: flex;
+        justify-content: space-around;
         gap: $sz-170;
 
         @media(min-width: $min-width-desktop) {
@@ -41,6 +52,12 @@
                 width: 51px;
                 height: 51px;
                 font-size: $fs-body-desktop;
+
+                &:hover{
+                    cursor: pointer;
+                    background-color: $clr-accent-orange;
+                    color: $clr-neutral-600;
+                }
             }
             
         }
@@ -65,6 +82,12 @@
         @media(min-width: $min-width-desktop) {
             margin-top: $sz-320;
             font-size: $fs-submit-desktop;
+
+            &:hover{
+                cursor: pointer;
+                background-color: $clr-neutral-100;
+                color: $clr-neutral-600;
+            }
         }
     }
 }

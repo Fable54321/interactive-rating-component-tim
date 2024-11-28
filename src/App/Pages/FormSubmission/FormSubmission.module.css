@@ -7,8 +7,14 @@
 .form-submission__form {
   margin-top: 1.5rem;
 }
+.form-submission__form .btn-selected {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(213, 19%, 18%);
+}
 .form-submission__form__rating {
+  width: 100%;
   display: flex;
+  justify-content: space-around;
   gap: 1.0625rem;
 }
 @media (min-width: 40em) {
@@ -41,6 +47,11 @@
     height: 51px;
     font-size: 0.9375rem;
   }
+  .form-submission__form__rating button:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+  }
 }
 .form-submission__form__submit {
   margin-top: 1.5rem;
@@ -62,5 +73,10 @@
   .form-submission__form__submit {
     margin-top: 2rem;
     font-size: 0.9375rem;
+  }
+  .form-submission__form__submit:hover {
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(213, 19%, 18%);
   }
 }/*# sourceMappingURL=FormSubmission.module.css.map */
